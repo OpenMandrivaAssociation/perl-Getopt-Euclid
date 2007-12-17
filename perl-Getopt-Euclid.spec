@@ -14,7 +14,6 @@ Source:         http://www.cpan.org/modules/by-module/Getopt/%{module}-v%{versio
 Buildrequires:  perl(Module::Build)
 BuildRequires:  perl-version
 BuildArch:	    noarch
-BuildRoot:	    %{_tmppath}/%{name}-%{version}
 
 %description
 Getopt::Euclid uses your program's own documentation to create a command-line
