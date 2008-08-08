@@ -1,7 +1,7 @@
 %define module	Getopt-Euclid
 %define name	perl-%{module}
 %define version 0.2.0
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name:		%{name}
 Version:	%{version}
