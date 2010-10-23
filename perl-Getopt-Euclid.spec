@@ -1,6 +1,6 @@
 %define upstream_name	Getopt-Euclid
 %define name            perl-%{upstream_name}
-%define upstream_version    0.2.1
+%define upstream_version    0.2.3
 %define version             %perl_convert_version %{upstream_version}
 %define release %mkrel 1
 
@@ -11,7 +11,7 @@ Summary:	Executable Uniform Command-Line Interface Descriptions
 License:	GPL or Artistic
 Group:		Development/Perl
 Url:            http://search.cpan.org/dist/%{upstream_name}
-Source:         http://www.cpan.org/upstream_names/by-upstream_name/Getopt/%{upstream_name}-%{upstream_version}.tar.gz
+Source:         http://www.cpan.org/upstream_names/by-upstream_name/Getopt/%{upstream_name}-v%{upstream_version}.tar.gz
 Buildrequires:  perl(Module::Build)
 BuildRequires:  perl-version
 BuildArch:	    noarch
@@ -23,7 +23,7 @@ argument parser. This ensures that your program's documented interface and its
 actual interface always agree.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-v%{upstream_version}
 
 %build
 %{__perl} Build.PL installdirs=vendor
