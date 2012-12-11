@@ -46,3 +46,42 @@ rm -rf %{buildroot}
 %{_mandir}/man3/*
 
 
+
+
+%changelog
+* Sat Oct 23 2010 Guillaume Rousse <guillomovitch@mandriva.org> 0.2.3-1mdv2011.0
++ Revision: 587627
+- new version
+
+* Wed Jun 10 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.2.1-1mdv2011.0
++ Revision: 384708
+- new version
+
+* Fri Aug 08 2008 Thierry Vignaud <tv@mandriva.org> 0.2.0-2mdv2009.0
++ Revision: 268517
+- rebuild early 2009.0 package (before pixel changes)
+
+* Wed Apr 16 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0.2.0-1mdv2009.0
++ Revision: 194855
+- update to new version 0.2.0
+- update to new version 0.2.0
+
+* Fri Jan 18 2008 Jérôme Quelin <jquelin@mandriva.org> 0.1.0-2mdv2008.1
++ Revision: 154592
+- forcing rebuild
+
+* Thu Dec 20 2007 Olivier Blin <oblin@mandriva.com> 0.1.0-1mdv2008.1
++ Revision: 135841
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Sat Mar 17 2007 Guillaume Rousse <guillomovitch@mandriva.org> 0.1.0-1mdv2007.1
++ Revision: 145623
+- Imported perl-Getopt-Euclid-0.1.0-1mdv2007.1 into SVN repository.
+
+* Sat Mar 17 2007 Guillaume Rousse <guillomovitch@mandriva.org> 0.1.0-1mdv2007.1
+- first mdv release
+
