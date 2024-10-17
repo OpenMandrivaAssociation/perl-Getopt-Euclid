@@ -10,7 +10,7 @@ Release:	%{release}
 Summary:	Executable Uniform Command-Line Interface Descriptions
 License:	GPL or Artistic
 Group:		Development/Perl
-Url:            http://search.cpan.org/dist/%{upstream_name}
+Url:            https://search.cpan.org/dist/%{upstream_name}
 Source:         http://www.cpan.org/upstream_names/by-upstream_name/Getopt/%{upstream_name}-v%{upstream_version}.tar.gz
 Buildrequires:  perl(Module::Build)
 BuildRequires:  perl-version
