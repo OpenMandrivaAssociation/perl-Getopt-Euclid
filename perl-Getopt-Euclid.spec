@@ -1,17 +1,17 @@
 %define upstream_name	Getopt-Euclid
 %define name            perl-%{upstream_name}
-%define upstream_version    0.2.3
-%define version             %perl_convert_version %{upstream_version}
+%define upstream_version    0.4.8
+%define version             0.4.8
 %define release 3
 
 Name:		%{name}
 Version:	%{version}
-Release:	%{release}
+Release:	1
 Summary:	Executable Uniform Command-Line Interface Descriptions
 License:	GPL or Artistic
 Group:		Development/Perl
-Url:            https://search.cpan.org/dist/%{upstream_name}
-Source:         http://www.cpan.org/upstream_names/by-upstream_name/Getopt/%{upstream_name}-v%{upstream_version}.tar.gz
+Url:            https://github.com/bigpresh/Getopt-Euclid
+Source:         https://cpan.metacpan.org/authors/id/B/BI/BIGPRESH/Getopt-Euclid-%{upstream_version}.tar.gz
 Buildrequires:  perl(Module::Build)
 BuildRequires:  perl-version
 BuildArch:	    noarch
